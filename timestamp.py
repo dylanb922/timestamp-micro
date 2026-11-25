@@ -29,6 +29,10 @@ def main():
         while True:
             request = socket.recv_string().strip().lower()
 
+            if request == "quit":
+                socket.send_string("Service quitting...")
+                break
+
             stamp_format = timestamp_formats.get(request)
 
             # Ensure format is valid & catch invalid commands
