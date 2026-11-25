@@ -14,7 +14,7 @@ timestamp_formats = {
     "12h_time": "%I:%M %p",
     "24h_time": "%H:%M",
     "24h_datetime_num": "%m/%d/%Y %H:%M",
-    "24h_datetime_text": "%B %d, %Y %H:%M",
+    "24h_datetime_text": "%B %d, %Y at %H:%M",
     "12h_datetime_num": "%m/%d/%Y %I:%M %p",
     "12h_datetime_text": "%B %d, %Y at %I:%M %p"
 }
