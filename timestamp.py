@@ -4,6 +4,8 @@ import zmq
 timestamp_formats = {
     "date_num": "%m/%d/%Y",
     "date_text": "%B %d, %Y",
+    "date_condensed": "%m%d%Y",
+    "date_underscore": "%m_%d_%Y",
     "month_day_num": "%m/%d",
     "month_day_text": "%B %d",
     "month_num": "%m",
